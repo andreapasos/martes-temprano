@@ -204,3 +204,6 @@ header {
     border: 20px inset rgb(238, 110, 132);
     background-image:url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
 }
+.containerInfo{
+    margin-top: 20px;
+}
