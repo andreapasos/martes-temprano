@@ -309,4 +309,12 @@ history h2 {
 history h2 p {
   color: red;
 }
+
+.btn--instagram {
+  background-color: #c25E30;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+}
 /*# sourceMappingURL=style.css.map */
