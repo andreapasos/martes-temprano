@@ -124,6 +124,20 @@ header {
     animation: corte 4s;
     
   }
+.imagenShnaw{
+    border: 20px inset rgb(236, 92, 116);
+}
+.imagenShnaw:hover{
+    animation: corte 4s;
+}
+.imagenPomer{
+    border: 20px inset rgb(236, 92, 116);
+}
+.imagenPomer:hover{
+    animation: corte 4s;
+}
+
+
 
 @keyframes corte{
     0%{
@@ -204,7 +218,7 @@ header {
     flex-direction: row;
     justify-content: center;
     border: 20px inset rgb(238, 110, 132);
-    background-image:url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
+    background-image: url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
 }
 .containerInfo{
     margin-top: 20px;

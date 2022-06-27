@@ -157,6 +157,24 @@ aside {
           animation: corte 4s;
 }
 
+.imagenShnaw {
+  border: 20px inset #ec5c74;
+}
+
+.imagenShnaw:hover {
+  -webkit-animation: corte 4s;
+          animation: corte 4s;
+}
+
+.imagenPomer {
+  border: 20px inset #ec5c74;
+}
+
+.imagenPomer:hover {
+  -webkit-animation: corte 4s;
+          animation: corte 4s;
+}
+
 @-webkit-keyframes corte {
   0% {
     -webkit-transform: scale(100px);
