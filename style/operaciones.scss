@@ -1,7 +1,6 @@
 $redes:(
     instagram:#c25E30,
     facebook:#3a5795,
-
 );
 @each $red, $color in $redes{
     .btn--#{$red}{background-color: $color;}

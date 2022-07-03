@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAMI,AAAA,eAAe,CAAF;EAAC,gBAAgB,EALpB,OAAO;CAKwB;;AAAzC,AAAA,cAAc,CAAD;EAAC,gBAAgB,EAJrB,OAAO;CAIyB",
+    "mappings": "AAKI,AAAA,eAAe,CAAF;EAAC,gBAAgB,EAJpB,OAAO;CAIwB;;AAAzC,AAAA,cAAc,CAAD;EAAC,gBAAgB,EAHrB,OAAO;CAGyB",
     "sources": [
         "../style/operaciones.scss"
     ],

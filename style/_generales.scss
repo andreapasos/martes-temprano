@@ -48,14 +48,33 @@ header {
 
  .menuFlex{
      display: flex;
-     flex-direction: column;
- }
- .productosFlex{
-     display: flex;
-     flex-direction: column;
-     text-align: center;
+     flex-direction: row;
+     justify-content: center;
+     background-color:rgb(146, 45, 240);
+     border: 1px solid black;
  }
 
+ h1{
+    font-family: cursive;
+    color: black;
+ }
+h2{
+    font-family: cursive;
+    color: black;
+}
+ 
+ .productosFlex{
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+     background-color: rgb(219, 156, 166);
+ }
+ .serviciosFlex{
+    background-color: rgb(219, 156, 166);
+ }
+.menuContainer{
+    background-color: rgb(219, 156, 166);
+}
 
  @media(min-width:768px){
 #grilla{
@@ -199,7 +218,7 @@ header {
     }
 }
 .menuContainer{
-    background-color:rgb(146, 45, 240) ;
+    background-color: blueviolet;
 }
 .pieDepagina{
 
@@ -210,15 +229,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: rgb(219, 156, 166);
     
-    background-image:url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
 }
 .imagenGeneral{
     display: flex;
     flex-direction: row;
     justify-content: center;
     border: 20px inset rgb(238, 110, 132);
-    background-image: url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
+    background-color: rgb(219, 156, 166);
 }
 .containerInfo{
     margin-top: 20px;

@@ -64,21 +64,45 @@ aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #922df0;
+  border: 1px solid black;
+}
+
+h1 {
+  font-family: cursive;
+  color: black;
+}
+
+h2 {
+  font-family: cursive;
+  color: black;
 }
 
 .productosFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   text-align: center;
+  background-color: #db9ca6;
+}
+
+.serviciosFlex {
+  background-color: #db9ca6;
+}
+
+.menuContainer {
+  background-color: #db9ca6;
 }
 
 @media (min-width: 768px) {
@@ -261,7 +285,7 @@ aside {
 }
 
 .menuContainer {
-  background-color: #922df0;
+  background-color: blueviolet;
 }
 
 .pieDepagina {
@@ -280,7 +304,7 @@ aside {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
+  background-color: #db9ca6;
 }
 
 .imagenGeneral {
@@ -295,7 +319,7 @@ aside {
       -ms-flex-pack: center;
           justify-content: center;
   border: 20px inset #ee6e84;
-  background-image: url(../img/d41f50e47da43d60f81cdf236717d3fc.jpg);
+  background-color: #db9ca6;
 }
 
 .containerInfo {
