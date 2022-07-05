@@ -47,7 +47,7 @@ h5{
     font-family: cursive;
     color: black;
 }
- 
+
  .productosFlex{
      display: flex;
      flex-direction: row;
@@ -75,7 +75,8 @@ h5{
        .menuFlex{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
+        
         }
        }
      }
@@ -95,7 +96,7 @@ h5{
    .menuFlex{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     }
    }
  }
@@ -235,6 +236,7 @@ h5{
     flex-direction: row;
     justify-content: center;
     border: 10px inset blueviolet;
+
 }
 .imagenGeneral1{
     display: flex;
