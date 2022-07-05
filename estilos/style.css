@@ -51,6 +51,11 @@ h2 {
   color: black;
 }
 
+h5 {
+  font-family: cursive;
+  color: black;
+}
+
 .productosFlex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,6 +74,26 @@ h2 {
 
 .menuContainer {
   background-color: #db9ca6;
+}
+
+@media (min-width: 480px) {
+  #grilla {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "imagenGeneral" "imagenGeneral1";
+  }
+  #grilla .menuFlex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 @media (min-width: 768px) {
@@ -288,8 +313,7 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 20px inset #ee6e84;
-  background-color: #db9ca6;
+  border: 10px inset blueviolet;
 }
 
 .imagenGeneral1 {
