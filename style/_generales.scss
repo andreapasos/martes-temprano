@@ -7,7 +7,36 @@
     background-color:rgb(146, 45, 240);
  }
  
+ main{
+    
+    background-color: rgb(219, 156, 166);
+ }
  
+
+    
+ 
+
+ .fig1{
+    
+      display: flex;
+      justify-content: left;   
+      border: 10px inset rgb(238, 52, 83);
+ }
+ .fig2{
+    display: flex;
+    justify-content: center;
+    border: 10px inset rgb(238, 52, 83);
+ }
+ .fig3{
+    display: flex;
+    justify-content: right;
+    border: 10px inset rgb(238, 52, 83);
+ }
+ .fig4{
+    display: flex;
+    justify-content: center;
+    border: 10px inset rgb(238, 52, 83);
+ }
  #grilla{
     height: 100%;
     display: grid;
