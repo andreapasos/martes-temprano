@@ -53,11 +53,20 @@ main {
 }
 
 #grilla {
+  grid-area: grilla;
+}
+
+.row {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: calesita;
+}
+
+#grilla {
   height: 100%;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "imagenGeneral  imagenGeneral1";
-  gap: 5px;
+      grid-template-areas: "imagenGeneral" "imagenGeneral1" "calesita";
 }
 
 .imagenGeneral {
@@ -109,6 +118,9 @@ h5 {
       -ms-flex-direction: row;
           flex-direction: row;
   text-align: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   background-color: #db9ca6;
 }
 
@@ -120,63 +132,45 @@ h5 {
   background-color: #db9ca6;
 }
 
-@media (min-width: 480px) {
-  #grilla {
+header {
+  grid-area: header;
+}
+
+.productos {
+  grid-area: productos;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+@media (min-width: 500px) {
+  body {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "imagenGeneral" "imagenGeneral1";
-  }
-  #grilla .menuFlex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+        grid-template-areas: "header" "productos" "main"    "footer";
+    background-color: pink;
   }
 }
 
 @media (min-width: 768px) {
-  #grilla {
+  body {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "imagenGeneral" "imagenGeneral1";
-  }
-  #grilla .menuFlex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+        grid-template-areas: "header header" "productos productos" "main main" "footer footer";
+    background-color: #db9ca6;
   }
 }
 
 @media (min-width: 1024px) {
-  #grilla {
+  body {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "imagenGeneral imagenGeneral1";
-  }
-  #grilla .menuFlex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+        grid-template-areas: "header header header" "productos productos productos" "main main main" "footer footer footer";
   }
 }
 
@@ -383,12 +377,10 @@ a:link {
   color: blue;
 }
 
-/*visitados*/
 a:visited {
   color: purple;
 }
 
-/*activos*/
 a:active {
   color: aqua;
 }
