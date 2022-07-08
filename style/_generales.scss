@@ -169,12 +169,12 @@ footer{
         display: flex;
         flex-direction: row;
     }
-    .serviciosFlex{
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-
+.serviciosFlex{
+    display: flex;
+    flex-direction:column;
+    
     }
+
 
 .imagen1{
     border: 20px inset rgb(236, 92, 116);
